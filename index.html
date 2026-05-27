@@ -264,25 +264,25 @@ footer{border-top:1px solid var(--border);padding:1.75rem 2rem;display:flex;alig
 //          Chicago(1-1-0,-3), San Francisco(0-1-0,-5), Colorado(0-2-0,-6)
 
 const TEAMS=[
-  {id:'towers',      city:'Toronto',       name:'Towers',        color:'#CC0000', conf:'East', ovr:92, w:1,l:2,otl:0,pts:2,gd:6},
-  {id:'storm',       city:'Montreal',      name:'Storm',         color:'#AAAAAA', conf:'East', ovr:89, w:0,l:2,otl:0,pts:0,gd:-2},
-  {id:'voyageurs',   city:'Quebec',        name:'Voyageurs',     color:'#1B3A6B', conf:'East', ovr:90, w:1,l:1,otl:0,pts:2,gd:-1},
-  {id:'legends',     city:'New York',      name:'Legends',       color:'#C9963A', conf:'East', ovr:92, w:0,l:1,otl:1,pts:1,gd:-5},
-  {id:'bulldogs',    city:'Buffalo',       name:'Bulldogs',      color:'#F5C518', conf:'East', ovr:88, w:0,l:2,otl:0,pts:0,gd:-13},
-  {id:'waves',       city:'Miami',         name:'Waves',         color:'#E91E8C', conf:'East', ovr:87, w:0,l:2,otl:1,pts:1,gd:-6},
-  {id:'liberty',     city:'Philadelphia',  name:'Liberty',       color:'#39FF99', conf:'East', ovr:91, w:2,l:0,otl:0,pts:4,gd:5},
-  {id:'firebirds',   city:'Florida',       name:'Firebirds',     color:'#FF4500', conf:'East', ovr:92, w:1,l:2,otl:0,pts:2,gd:-1},
-  {id:'imperials',   city:'New York',      name:'Imperials',     color:'#0038A8', conf:'East', ovr:91, w:1,l:1,otl:1,pts:3,gd:-3},
+  {id:'towers',      city:'Toronto',       name:'Towers',        color:'#CC0000', conf:'East', ovr:92, w:2,l:2,otl:0,pts:4,gd:7},
+  {id:'storm',       city:'Montreal',      name:'Storm',         color:'#330303', conf:'East', ovr:89, w:0,l:3,otl:1,pts:1,gd:-3},
+  {id:'voyageurs',   city:'Quebec',        name:'Voyageurs',     color:'#1B3A6B', conf:'East', ovr:90, w:1,l:3,otl:0,pts:2,gd:-6},
+  {id:'legends',     city:'New York',      name:'Legends',       color:'#D3AF37', conf:'East', ovr:92, w:1,l:2,otl:1,pts:3,gd:-4},
+  {id:'bulldogs',    city:'Buffalo',       name:'Bulldogs',      color:'#F5C518', conf:'East', ovr:88, w:0,l:3,otl:0,pts:0,gd:-17},
+  {id:'waves',       city:'Miami',         name:'Waves',         color:'#E91E8C', conf:'East', ovr:87, w:1,l:2,otl:1,pts:3,gd:-4},
+  {id:'liberty',     city:'Philadelphia',  name:'Liberty',       color:'#39FF99', conf:'East', ovr:91, w:3,l:1,otl:0,pts:6,gd:5},
+  {id:'firebirds',   city:'Florida',       name:'Firebirds',     color:'#FF4500', conf:'East', ovr:92, w:1,l:2,otl:1,pts:3,gd:-2},
+  {id:'imperials',   city:'New York',      name:'Imperials',     color:'#0038A8', conf:'East', ovr:91, w:1,l:1,otl:1,pts:3,gd:-7},
 
-  {id:'outlaws',     city:'Alberta',       name:'Outlaws',       color:'#8B1A1A', conf:'West', ovr:92, w:2,l:1,otl:0,pts:4,gd:4},
-  {id:'stags',       city:'Seattle',       name:'Stags',         color:'#9B59B6', conf:'West', ovr:93, w:3,l:0,otl:0,pts:6,gd:12},
-  {id:'comets',      city:'Colorado',      name:'Comets',        color:'#E65100', conf:'West', ovr:92, w:0,l:2,otl:0,pts:0,gd:-6},
-  {id:'magic',       city:'Los Angeles',   name:'Magic',         color:'#7B2FBE', conf:'West', ovr:93, w:2,l:0,otl:0,pts:4,gd:5},
+  {id:'outlaws',     city:'Alberta',       name:'Outlaws',       color:'#8B1A1A', conf:'West', ovr:92, w:3,l:1,otl:0,pts:6,gd:5},
+  {id:'stags',       city:'Seattle',       name:'Stags',         color:'#9B59B6', conf:'West', ovr:93, w:4,l:0,otl:0,pts:8,gd:15},
+  {id:'comets',      city:'Colorado',      name:'Comets',        color:'#E65100', conf:'West', ovr:92, w:1,l:2,otl:0,pts:2,gd:-4},
+  {id:'magic',       city:'Los Angeles',   name:'Magic',         color:'#7B2FBE', conf:'West', ovr:93, w:3,l:0,otl:1,pts:7,gd:8},
   {id:'notes',       city:'St. Louis',     name:'Notes',         color:'#5BB8F5', conf:'West', ovr:91, w:2,l:1,otl:0,pts:4,gd:4},
-  {id:'ghostpirates',city:'Portland',      name:'Ghost Pirates', color:'#39FF14', conf:'West', ovr:88, w:3,l:0,otl:0,pts:6,gd:3},
-  {id:'rams',        city:'Chicago',       name:'Rams',          color:'#4A6FA5', conf:'West', ovr:92, w:1,l:1,otl:0,pts:2,gd:-3},
-  {id:'longhorns',   city:'Dallas',        name:'Longhorns',     color:'#1A3A6B', conf:'West', ovr:92, w:2,l:0,otl:0,pts:4,gd:5},
-  {id:'pirates',     city:'San Francisco', name:'Pirates',       color:'#9B1515', conf:'West', ovr:91, w:1,l:1,otl:0,pts:2,gd:-4},
+  {id:'ghostpirates',city:'Portland',      name:'Ghost Pirates', color:'#39FF14', conf:'West', ovr:88, w:4,l:0,otl:0,pts:8,gd:8},
+  {id:'rams',        city:'Chicago',       name:'Rams',          color:'#4A6FA5', conf:'West', ovr:92, w:3,l:1,otl:0,pts:6,gd:-2},
+  {id:'longhorns',   city:'Dallas',        name:'Longhorns',     color:'#1A3A6B', conf:'West', ovr:92, w:3,l:1,otl:0,pts:6,gd:3},
+  {id:'pirates',     city:'San Francisco', name:'Pirates',       color:'#9B1515', conf:'West', ovr:91, w:1,l:2,otl:0,pts:2,gd:-7},
 ];
 
 const ROSTERS={
@@ -300,7 +300,7 @@ const ROSTERS={
     ],
     players:[
       // Stats from Images 4-5 (Toronto Towers, lost — Malkin 1g, Logan Thompson in net: 18SA 16S .889 2GA 2.03GAA)
-{name:'Dixon Nils',pos:'LW',ovr:99,gp:3,g:1,a:1,pts_s:2,plusminus:1,shots:3,shot_pct:0.333,ppt:'1:14',pim:0,hits:4},
+{name:'Dixon Nils',pos:'LW',ovr:99,gp:3,g:1,a:2,pts_s:2,plusminus:1,shots:3,shot_pct:0.333,ppt:'1:14',pim:0,hits:4},
 
 {name:'Connor Bedard',pos:'C',ovr:94,gp:3,g:1,a:1,pts_s:2,plusminus:0,shots:3,shot_pct:0.333,ppt:'1:50',pim:0,hits:4},
 
@@ -354,45 +354,45 @@ const ROSTERS={
       {label:'Pair 3',players:['Sam Edvinsson','Olen Zellweger']},
     ],
     players:[
-{name:'Ivan Demidov',pos:'RW',ovr:93,gp:3,g:0,a:1,pts_s:1,plusminus:-1,shots:3,shot_pct:0,ppt:'2:08',pim:0,hits:1},
+{name:'Ivan Demidov',pos:'RW',ovr:93,gp:4,g:0,a:1,pts_s:1,plusminus:-1,shots:3,shot_pct:0,ppt:'2:08',pim:0,hits:1},
 
-{name:'Mitch Marner',pos:'RW',ovr:91,gp:3,g:0,a:1,pts_s:1,plusminus:-1,shots:6,shot_pct:0,ppt:'3:55',pim:0,hits:0},
+{name:'Mitch Marner',pos:'RW',ovr:91,gp:4,g:0,a:1,pts_s:1,plusminus:0,shots:8,shot_pct:0,ppt:'4:24',pim:0,hits:1},
 
-{name:'Seth Jarvis',pos:'RW',ovr:88,gp:3,g:0,a:1,pts_s:1,plusminus:1,shots:4,shot_pct:0,ppt:'3:39',pim:0,hits:3},
+{name:'Seth Jarvis',pos:'RW',ovr:88,gp:4,g:0,a:1,pts_s:1,plusminus:1,shots:4,shot_pct:0,ppt:'4:02',pim:0,hits:4},
 
-{name:'Beckett Sennecke',pos:'LW',ovr:90,gp:3,g:1,a:0,pts_s:1,plusminus:-2,shots:8,shot_pct:0.125,ppt:'4:37',pim:5,hits:4},
+{name:'Beckett Sennecke',pos:'LW',ovr:90,gp:4,g:1,a:1,pts_s:2,plusminus:-3,shots:9,shot_pct:0.111,ppt:'6:58',pim:5,hits:8},
 
-{name:'Brandon Hagel',pos:'LW',ovr:90,gp:3,g:0,a:0,pts_s:0,plusminus:-1,shots:4,shot_pct:0,ppt:'3:31',pim:0,hits:10},
+{name:'Brandon Hagel',pos:'LW',ovr:90,gp:4,g:0,a:1,pts_s:1,plusminus:0,shots:7,shot_pct:0,ppt:'5:20',pim:0,hits:12},
 
-{name:'Jack Quinn',pos:'RW',ovr:83,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:1,shot_pct:0,ppt:'0:02',pim:0,hits:0},
+{name:'Jack Quinn',pos:'RW',ovr:83,gp:4,g:0,a:0,pts_s:0,plusminus:0,shots:1,shot_pct:0,ppt:'0:30',pim:0,hits:0},
 
-{name:'Lawson Crouse',pos:'LW',ovr:83,gp:3,g:0,a:0,pts_s:0,plusminus:-1,shots:1,shot_pct:0,ppt:'0:22',pim:0,hits:1},
+{name:'Lawson Crouse',pos:'LW',ovr:83,gp:4,g:0,a:0,pts_s:0,plusminus:-1,shots:2,shot_pct:0,ppt:'0:54',pim:0,hits:2},
 
-{name:'Aliaksei Protas',pos:'C',ovr:86,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:4,shot_pct:0,ppt:'1:28',pim:0,hits:2},
+{name:'Aliaksei Protas',pos:'C',ovr:86,gp:4,g:0,a:0,pts_s:0,plusminus:0,shots:4,shot_pct:0,ppt:'2:02',pim:0,hits:2},
 
-{name:'Xavier Feathers',pos:'C',ovr:86,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
+{name:'Xavier Feathers',pos:'C',ovr:86,gp:4,g:0,a:1,pts_s:1,plusminus:-1,shots:1,shot_pct:0,ppt:'1:24',pim:0,hits:3},
 
 {name:'Tij Iginla',pos:'C',ovr:84,gp:3,g:1,a:0,pts_s:1,plusminus:0,shots:3,shot_pct:0.333,ppt:'0:35',pim:2,hits:1},
 
 {name:'Samuel Honzek',pos:'C',ovr:84,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:1,shot_pct:0,ppt:'0:00',pim:0,hits:2},
 
-{name:'Caleb Desnoyers',pos:'C',ovr:84,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
+{name:'Caleb Desnoyers',pos:'C',ovr:84,gp:4,g:1,a:0,pts_s:1,plusminus:1,shots:3,shot_pct:0.333,ppt:'1:31',pim:0,hits:0},
 
 {name:'Brady Martin',pos:'C',ovr:79,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
 {name:'Brock Faber',pos:'D',ovr:88,gp:3,g:0,a:0,pts_s:0,plusminus:-1,shots:5,shot_pct:0,ppt:'1:38',pim:0,hits:3},
 
-{name:'Matthew Schaefer',pos:'D',ovr:88,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
+{name:'Matthew Schaefer',pos:'D',ovr:88,gp:4,g:1,a:0,pts_s:1,plusminus:-1,shots:1,shot_pct:1.000,ppt:'1:31',pim:0,hits:5},
 
-{name:'Bowen Byram',pos:'D',ovr:86,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:3,shot_pct:0,ppt:'1:14',pim:10,hits:4},
+{name:'Bowen Byram',pos:'D',ovr:86,gp:4,g:0,a:0,pts_s:0,plusminus:1,shots:3,shot_pct:0,ppt:'1:46',pim:10,hits:5},
 
 {name:'Simon Edvinsson',pos:'D',ovr:85,gp:3,g:0,a:0,pts_s:0,plusminus:-2,shots:0,shot_pct:0,ppt:'0:45',pim:0,hits:1},
 
-{name:'Olen Zellweger',pos:'D',ovr:83,gp:3,g:0,a:0,pts_s:0,plusminus:-2,shots:0,shot_pct:0,ppt:'1:34',pim:0,hits:1},
+{name:'Olen Zellweger',pos:'D',ovr:83,gp:4,g:0,a:0,pts_s:0,plusminus:-2,shots:0,shot_pct:0,ppt:'2:21',pim:0,hits:1},
 
-{name:'Axel Sandin-Pellikka',pos:'D',ovr:82,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
+{name:'Axel Sandin-Pellikka',pos:'D',ovr:82,gp:4,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:34',pim:0,hits:0},
 
-{name:'Carson Bjarnason',pos:'G',ovr:86,gp:3,gw:1,gaa:1.67,svp:0.923,sa:52,s:48},
+{name:'Carson Bjarnason',pos:'G',ovr:86,gp:4,gw:1,gaa:1.71,svp:0.912,sa:72,s:66},
 
 {name:'Jakub Dobes',pos:'G',ovr:84,gp:0,gw:0,gaa:0,svp:0,sa:0,s:0},
     ]
@@ -466,39 +466,39 @@ const ROSTERS={
       {label:'Pair 3',players:['Seamus Casey','Rasmus Jarnkrok']},
     ],
     players:[
-{name:'David Pastrnak',pos:'RW',ovr:95,gp:2,g:1,a:0,pts_s:1,plusminus:-2,shots:8,shot_pct:0.125,ppt:'3:46',pim:2,hits:0},
+{name:'David Pastrnak',pos:'RW',ovr:95,gp:3,g:1,a:2,pts_s:3,plusminus:0,shots:9,shot_pct:0.111,ppt:'5:31',pim:2,hits:1},
 
 {name:'Jackson Blake',pos:'RW',ovr:84,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
-{name:'Sidney Crosby',pos:'C',ovr:92,gp:2,g:0,a:0,pts_s:0,plusminus:-2,shots:3,shot_pct:0,ppt:'3:17',pim:2,hits:0},
+{name:'Sidney Crosby',pos:'C',ovr:92,gp:3,g:1,a:0,pts_s:1,plusminus:0,shots:6,shot_pct:0.167,ppt:'4:07',pim:2,hits:1},
 
-{name:'Mark Scheifele',pos:'C',ovr:91,gp:2,g:0,a:1,pts_s:1,plusminus:0,shots:5,shot_pct:0,ppt:'3:17',pim:2,hits:1},
+{name:'Mark Scheifele',pos:'C',ovr:91,gp:3,g:1,a:1,pts_s:2,plusminus:0,shots:8,shot_pct:0.125,ppt:'5:10',pim:2,hits:2},
 
-{name:'Nick Suzuki',pos:'C',ovr:91,gp:2,g:0,a:1,pts_s:1,plusminus:0,shots:3,shot_pct:0,ppt:'2:47',pim:2,hits:2},
+{name:'Nick Suzuki',pos:'C',ovr:91,gp:3,g:0,a:2,pts_s:2,plusminus:1,shots:5,shot_pct:0,ppt:'3:49',pim:2,hits:4},
 
-{name:'Bo Horvat',pos:'C',ovr:88,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:1,shot_pct:0,ppt:'1:55',pim:2,hits:2},
+{name:'Bo Horvat',pos:'C',ovr:88,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:2,shot_pct:0,ppt:'2:29',pim:2,hits:4},
 
 {name:'Matthew Poitras',pos:'C',ovr:86,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
-{name:'Matt Duchene',pos:'C',ovr:85,gp:2,g:0,a:0,pts_s:0,plusminus:-2,shots:1,shot_pct:0,ppt:'0:38',pim:0,hits:0},
+{name:'Matt Duchene',pos:'C',ovr:85,gp:3,g:0,a:0,pts_s:0,plusminus:-1,shots:1,shot_pct:0,ppt:'1:40',pim:0,hits:1},
 
-{name:'Anders Lee',pos:'LW',ovr:84,gp:2,g:0,a:1,pts_s:1,plusminus:1,shots:2,shot_pct:0,ppt:'1:30',pim:0,hits:0},
+{name:'Anders Lee',pos:'LW',ovr:84,gp:3,g:1,a:1,pts_s:2,plusminus:2,shots:3,shot_pct:0.333,ppt:'2:24',pim:0,hits:0},
 
-{name:'Mikhail Sergachev',pos:'D',ovr:88,gp:2,g:0,a:0,pts_s:0,plusminus:-2,shots:0,shot_pct:0,ppt:'2:09',pim:0,hits:6},
+{name:'Mikhail Sergachev',pos:'D',ovr:88,gp:3,g:0,a:0,pts_s:0,plusminus:1,shots:0,shot_pct:0,ppt:'2:52',pim:0,hits:8},
 
-{name:'Seth Jones',pos:'D',ovr:87,gp:2,g:0,a:1,pts_s:1,plusminus:-2,shots:1,shot_pct:0,ppt:'1:58',pim:0,hits:0},
+{name:'Seth Jones',pos:'D',ovr:87,gp:3,g:0,a:1,pts_s:1,plusminus:-3,shots:1,shot_pct:0,ppt:'3:25',pim:0,hits:2},
 
-{name:'Esa Lindell',pos:'D',ovr:86,gp:2,g:0,a:1,pts_s:1,plusminus:0,shots:1,shot_pct:0,ppt:'1:39',pim:0,hits:1},
+{name:'Esa Lindell',pos:'D',ovr:86,gp:3,g:0,a:1,pts_s:1,plusminus:0,shots:1,shot_pct:0,ppt:'2:34',pim:0,hits:1},
 
 {name:'Seamus Casey',pos:'D',ovr:85,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
 {name:'Kaapo Dach',pos:'D',ovr:85,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:16',pim:0,hits:0},
 
-{name:'Jack Hughes',pos:'C',ovr:93,gp:3,g:0,a:2,pts_s:2,plusminus:0,shots:0,shot_pct:0,ppt:'0:51',pim:0,hits:3},
+{name:'Jack Hughes',pos:'C',ovr:93,gp:4,g:0,a:4,pts_s:4,plusminus:2,shots:3,shot_pct:0,ppt:'3:13',pim:0,hits:5},
 
-{name:'Filip Hronek',pos:'D',ovr:87,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:2,shot_pct:0,ppt:'0:34',pim:0,hits:0},
+{name:'Filip Hronek',pos:'D',ovr:87,gp:4,g:1,a:0,pts_s:1,plusminus:4,shots:5,shot_pct:0.200,ppt:'2:49',pim:0,hits:1},
 
-{name:'Jacob Markstrom',pos:'G',ovr:88,gp:2,gw:0,gaa:3.43,svp:0.826,sa:40,s:33},
+{name:'Jacob Markstrom',pos:'G',ovr:88,gp:3,gw:0,gaa:2.67,svp:0.843,sa:51,s:43},
 
 {name:'Brandon Bussi',pos:'G',ovr:85,gp:1,gw:0,gaa:0,svp:0,sa:0,s:0},
     ]
@@ -717,30 +717,43 @@ const ROSTERS={
       {label:'Pair 3',players:["K'Andre Miller",'Zach Whitecloud']},
     ],
     players:[
-{name:'Adam Fantilli',pos:'C',ovr:97,gp:3,g:0,a:0,pts_s:0,plusminus:1,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
-{name:'Landon Dupont',pos:'D',ovr:91,gp:3,g:0,a:0,pts_s:0,plusminus:1,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
+{name:'Adam Fantilli',pos:'C',ovr:97,gp:4,g:0,a:0,pts_s:0,plusminus:1,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
-{name:'Roope Hintz',pos:'C',ovr:88,gp:3,g:1,a:0,pts_s:1,plusminus:-1,shots:4,shot_pct:0.250,ppt:'2:41',pim:0,hits:7},
-{name:'Marco Rossi',pos:'C',ovr:86,gp:3,g:1,a:1,pts_s:2,plusminus:0,shots:2,shot_pct:0.500,ppt:'1:09',pim:0,hits:2},
-{name:'Dylan Cozens',pos:'C',ovr:85,gp:3,g:1,a:1,pts_s:2,plusminus:-2,shots:3,shot_pct:0.333,ppt:'4:01',pim:0,hits:4},
-{name:'J.T. Miller',pos:'C',ovr:87,gp:3,g:0,a:0,pts_s:0,plusminus:1,shots:4,shot_pct:0,ppt:'4:37',pim:0,hits:5},
+{name:'Landon Dupont',pos:'D',ovr:91,gp:4,g:0,a:0,pts_s:0,plusminus:1,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
-{name:'Matthew Tkachuk',pos:'LW',ovr:93,gp:3,g:0,a:1,pts_s:1,plusminus:-2,shots:4,shot_pct:0,ppt:'2:02',pim:0,hits:11},
-{name:'Jake DeBrusk',pos:'LW',ovr:84,gp:3,g:1,a:1,pts_s:2,plusminus:1,shots:8,shot_pct:0.125,ppt:'3:11',pim:0,hits:2},
+{name:'Roope Hintz',pos:'C',ovr:88,gp:4,g:1,a:0,pts_s:1,plusminus:-3,shots:5,shot_pct:0.200,ppt:'2:48',pim:0,hits:7},
+
+{name:'Marco Rossi',pos:'C',ovr:86,gp:4,g:1,a:1,pts_s:2,plusminus:0,shots:4,shot_pct:0.250,ppt:'2:27',pim:0,hits:3},
+
+{name:'Dylan Cozens',pos:'C',ovr:85,gp:4,g:1,a:1,pts_s:2,plusminus:-2,shots:3,shot_pct:0.333,ppt:'5:08',pim:0,hits:4},
+
+{name:'J.T. Miller',pos:'C',ovr:87,gp:4,g:0,a:0,pts_s:0,plusminus:-1,shots:6,shot_pct:0,ppt:'6:08',pim:0,hits:7},
+
+{name:'Matthew Tkachuk',pos:'LW',ovr:93,gp:4,g:0,a:1,pts_s:1,plusminus:-3,shots:4,shot_pct:0,ppt:'3:08',pim:0,hits:13},
+
+{name:'Jake DeBrusk',pos:'LW',ovr:84,gp:4,g:1,a:1,pts_s:2,plusminus:1,shots:11,shot_pct:0.091,ppt:'4:30',pim:0,hits:2},
+
 {name:'Kiefer Sherwood',pos:'LW',ovr:83,gp:3,g:0,a:1,pts_s:1,plusminus:1,shots:0,shot_pct:0,ppt:'0:56',pim:0,hits:0},
-{name:'Mackie Samoskevich',pos:'RW',ovr:83,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
-{name:'Sean Monahan',pos:'RW',ovr:84,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:34',pim:0,hits:0},
 
-{name:'Erik Karlsson',pos:'D',ovr:87,gp:3,g:1,a:0,pts_s:1,plusminus:0,shots:5,shot_pct:0.200,ppt:'2:01',pim:0,hits:1},
-{name:'Jonas Brodin',pos:'D',ovr:86,gp:3,g:1,a:0,pts_s:1,plusminus:-2,shots:4,shot_pct:0.250,ppt:'3:31',pim:0,hits:5},
-{name:'Jonas Siegenthaler',pos:'D',ovr:85,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:47',pim:0,hits:1},
-{name:"K'Andre Miller",pos:'D',ovr:84,gp:3,g:0,a:0,pts_s:0,plusminus:1,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
+{name:'Mackie Samoskevich',pos:'RW',ovr:83,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
+
+{name:'Sean Monahan',pos:'RW',ovr:84,gp:4,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'1:19',pim:0,hits:1},
+
+{name:'Erik Karlsson',pos:'D',ovr:87,gp:4,g:1,a:0,pts_s:1,plusminus:0,shots:5,shot_pct:0.200,ppt:'2:36',pim:0,hits:3},
+
+{name:'Jonas Brodin',pos:'D',ovr:86,gp:4,g:1,a:0,pts_s:1,plusminus:-3,shots:4,shot_pct:0.250,ppt:'5:42',pim:0,hits:7},
+
+{name:'Jonas Siegenthaler',pos:'D',ovr:85,gp:4,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'1:20',pim:0,hits:3},
+
+{name:"K'Andre Miller",pos:'D',ovr:84,gp:4,g:0,a:0,pts_s:0,plusminus:-1,shots:2,shot_pct:0,ppt:'1:31',pim:0,hits:2},
 
 {name:'Vyacheslav Novikov',pos:'LW',ovr:92,gp:3,g:0,a:2,pts_s:2,plusminus:1,shots:1,shot_pct:0,ppt:'4:26',pim:4,hits:4},
-{name:'Zach Whitecloud',pos:'D',ovr:82,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:1,shot_pct:0,ppt:'2:03',pim:0,hits:6},
+
+{name:'Zach Whitecloud',pos:'D',ovr:82,gp:4,g:0,a:0,pts_s:0,plusminus:-2,shots:1,shot_pct:0,ppt:'2:43',pim:0,hits:8},
 
 {name:'Dustin Wolf',pos:'G',ovr:87,gp:2,gw:0,gaa:2.04,svp:0.850,sa:22,s:19},
-{name:'Yaroslav Askarov',pos:'G',ovr:83,gp:2,gw:1,gaa:3.92,svp:0.722,sa:18,s:13},
+
+{name:'Yaroslav Askarov',pos:'G',ovr:83,gp:3,gw:1,gaa:3.95,svp:0.697,sa:33,s:23},
     ]
   },
   outlaws:{
@@ -756,28 +769,43 @@ const ROSTERS={
       {label:'Pair 3',players:['Pavel Mintykov','Owen Power']},
     ],
     players:[
-{name:'Tage Thompson',pos:'C',ovr:91,gp:3,g:0,a:1,pts_s:1,plusminus:0,shots:6,shot_pct:0,ppt:'5:15',pim:0,hits:6},
+,{name:'Tage Thompson',pos:'C',ovr:91,gp:4,g:1,a:1,pts_s:2,plusminus:0,shots:10,shot_pct:0.100,ppt:'7:31',pim:2,hits:9},
+
 {name:'Wyatt Johnston',pos:'C',ovr:91,gp:3,g:1,a:0,pts_s:1,plusminus:2,shots:2,shot_pct:0.500,ppt:'3:56',pim:0,hits:9},
-{name:'Sebastian Aho',pos:'C',ovr:90,gp:3,g:1,a:1,pts_s:2,plusminus:-1,shots:5,shot_pct:0.200,ppt:'5:22',pim:0,hits:2},
-{name:'Nick Schmaltz',pos:'C',ovr:87,gp:3,g:1,a:1,pts_s:2,plusminus:2,shots:3,shot_pct:0.333,ppt:'4:22',pim:0,hits:1},
-{name:'Charlie Coyle',pos:'C',ovr:85,gp:3,g:1,a:1,pts_s:2,plusminus:0,shots:3,shot_pct:0.333,ppt:'2:51',pim:5,hits:1},
-{name:'Elias Lindholm',pos:'C',ovr:84,gp:1,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:30',pim:0,hits:1},
+
+{name:'Sebastian Aho',pos:'C',ovr:90,gp:4,g:1,a:1,pts_s:2,plusminus:0,shots:7,shot_pct:0.143,ppt:'7:05',pim:0,hits:3},
+
+{name:'Nick Schmaltz',pos:'C',ovr:87,gp:4,g:1,a:1,pts_s:2,plusminus:1,shots:6,shot_pct:0.167,ppt:'5:23',pim:0,hits:2},
+
+{name:'Charlie Coyle',pos:'C',ovr:85,gp:4,g:1,a:1,pts_s:2,plusminus:1,shots:5,shot_pct:0.200,ppt:'3:54',pim:5,hits:4},
+
+{name:'Elias Lindholm',pos:'C',ovr:84,gp:2,g:0,a:0,pts_s:0,plusminus:-1,shots:0,shot_pct:0,ppt:'1:54',pim:0,hits:1},
 
 {name:'Lucas Raymond',pos:'RW',ovr:89,gp:3,g:1,a:2,pts_s:3,plusminus:2,shots:4,shot_pct:0.250,ppt:'3:18',pim:0,hits:4},
-{name:'Jonathan Marchessault',pos:'RW',ovr:84,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:4,shot_pct:0,ppt:'1:54',pim:0,hits:2},
-{name:'Anthony Mantha',pos:'RW',ovr:84,gp:3,g:0,a:1,pts_s:1,plusminus:2,shots:1,shot_pct:0,ppt:'0:24',pim:0,hits:0},
-{name:'Ryan Nugent-Hopkins',pos:'C',ovr:87,gp:3,g:0,a:0,pts_s:0,plusminus:-1,shots:4,shot_pct:0,ppt:'3:21',pim:0,hits:1},
-{name:'Alexis Lavoie',pos:'LW',ovr:85,gp:3,g:3,a:0,pts_s:3,plusminus:1,shots:2,shot_pct:1.000,ppt:'1:53',pim:0,hits:1},
 
-{name:'Zach Werenski',pos:'D',ovr:94,gp:3,g:0,a:1,pts_s:1,plusminus:-1,shots:0,shot_pct:0,ppt:'1:12',pim:0,hits:0},
-{name:'Kris Letang',pos:'D',ovr:86,gp:3,g:1,a:0,pts_s:1,plusminus:5,shots:1,shot_pct:1.000,ppt:'1:46',pim:0,hits:4},
+{name:'Jonathan Marchessault',pos:'RW',ovr:84,gp:4,g:0,a:0,pts_s:0,plusminus:0,shots:4,shot_pct:0,ppt:'2:41',pim:0,hits:2},
+
+{name:'Anthony Mantha',pos:'RW',ovr:84,gp:4,g:0,a:1,pts_s:1,plusminus:2,shots:1,shot_pct:0,ppt:'1:25',pim:0,hits:0},
+
+{name:'Ryan Nugent-Hopkins',pos:'C',ovr:87,gp:4,g:0,a:0,pts_s:0,plusminus:-1,shots:4,shot_pct:0,ppt:'3:35',pim:0,hits:1},
+
+{name:'Alexis Lavoie',pos:'LW',ovr:85,gp:4,g:4,a:0,pts_s:4,plusminus:2,shots:3,shot_pct:1.333,ppt:'4:23',pim:0,hits:1},
+
+{name:'Zach Werenski',pos:'D',ovr:94,gp:4,g:0,a:1,pts_s:1,plusminus:-1,shots:2,shot_pct:0,ppt:'2:55',pim:0,hits:3},
+
+{name:'Kris Letang',pos:'D',ovr:86,gp:4,g:1,a:0,pts_s:1,plusminus:6,shots:3,shot_pct:0.333,ppt:'3:51',pim:0,hits:4},
+
 {name:'Simon Nemec',pos:'D',ovr:85,gp:2,g:0,a:2,pts_s:2,plusminus:1,shots:1,shot_pct:0,ppt:'3:32',pim:0,hits:0},
-{name:'Owen Power',pos:'D',ovr:85,gp:3,g:1,a:1,pts_s:2,plusminus:4,shots:4,shot_pct:0.250,ppt:'4:04',pim:0,hits:6},
-{name:'Pavel Mintyukov',pos:'D',ovr:84,gp:3,g:0,a:1,pts_s:1,plusminus:0,shots:0,shot_pct:0,ppt:'0:42',pim:0,hits:2},
-{name:'Victor Hedman',pos:'D',ovr:91,gp:3,g:0,a:1,pts_s:1,plusminus:-5,shots:2,shot_pct:0,ppt:'2:59',pim:0,hits:5},
 
-{name:'Connor Hellebuyck',pos:'G',ovr:92,gp:3,gw:1,gaa:2.72,svp:0.848,sa:58,s:49},
-{name:'Devon Cooley',pos:'G',ovr:80,gp:1,gw:0,gaa:0.00,svp:1.000,sa:1,s:1},
+{name:'Owen Power',pos:'D',ovr:85,gp:3,g:1,a:1,pts_s:2,plusminus:4,shots:4,shot_pct:0.250,ppt:'4:04',pim:0,hits:6},
+
+{name:'Pavel Mintyukov',pos:'D',ovr:84,gp:3,g:0,a:1,pts_s:1,plusminus:0,shots:0,shot_pct:0,ppt:'0:42',pim:0,hits:2},
+
+{name:'Victor Hedman',pos:'D',ovr:91,gp:4,g:0,a:1,pts_s:1,plusminus:-5,shots:3,shot_pct:0,ppt:'4:25',pim:0,hits:6},
+
+{name:'Connor Hellebuyck',pos:'G',ovr:92,gp:4,gw:1,gaa:2.52,svp:0.853,sa:73,s:62},
+
+{name:'Devon Cooley',pos:'G',ovr:80,gp:1,gw:0,gaa:0.00,svp:1.000,sa:1,s:1}
     ]
   },
   stags:{
@@ -1039,41 +1067,43 @@ const ROSTERS={
       {label:'Pair 3',players:['','']},
     ],
     players:[
-{name:'William Beach',pos:'LW',ovr:85,gp:3,g:2,a:0,pts_s:2,plusminus:0,shots:3,shot_pct:0.667,ppt:'2:13',pim:0,hits:2},
+```js
+{name:'William Beach',pos:'LW',ovr:85,gp:4,g:2,a:1,pts_s:3,plusminus:1,shots:5,shot_pct:0.400,ppt:'3:36',pim:0,hits:3},
 
 {name:'William Nylander',pos:'RW',ovr:90,gp:2,g:1,a:0,pts_s:1,plusminus:0,shots:2,shot_pct:0.500,ppt:'1:17',pim:2,hits:0},
 
 {name:'Mason Lohrei',pos:'D',ovr:84,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
-{name:'Travis Konecny',pos:'RW',ovr:87,gp:3,g:0,a:1,pts_s:1,plusminus:-2,shots:8,shot_pct:0,ppt:'5:21',pim:2,hits:6},
+{name:'Travis Konecny',pos:'RW',ovr:87,gp:4,g:1,a:1,pts_s:2,plusminus:-1,shots:11,shot_pct:0.091,ppt:'7:17',pim:2,hits:7},
 
-{name:'Timo Meier',pos:'LW',ovr:87,gp:3,g:1,a:0,pts_s:1,plusminus:1,shots:4,shot_pct:0.250,ppt:'4:44',pim:0,hits:6},
+{name:'Timo Meier',pos:'LW',ovr:87,gp:4,g:1,a:0,pts_s:1,plusminus:1,shots:5,shot_pct:0.200,ppt:'6:01',pim:0,hits:7},
 
-{name:'Conor Garland',pos:'RW',ovr:83,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:2,shot_pct:0,ppt:'1:14',pim:0,hits:2},
+{name:'Conor Garland',pos:'RW',ovr:83,gp:4,g:0,a:0,pts_s:0,plusminus:1,shots:3,shot_pct:0,ppt:'2:16',pim:0,hits:3},
 
-{name:'Joel Eriksson Ek',pos:'C',ovr:86,gp:3,g:0,a:1,pts_s:1,plusminus:1,shots:1,shot_pct:0,ppt:'2:23',pim:0,hits:4},
+{name:'Joel Eriksson Ek',pos:'C',ovr:86,gp:4,g:2,a:1,pts_s:3,plusminus:2,shots:3,shot_pct:0.667,ppt:'3:34',pim:0,hits:5},
 
-{name:'Auston Matthews',pos:'C',ovr:95,gp:3,g:0,a:0,pts_s:0,plusminus:1,shots:4,shot_pct:0,ppt:'4:04',pim:0,hits:8},
+{name:'Auston Matthews',pos:'C',ovr:95,gp:4,g:1,a:1,pts_s:2,plusminus:3,shots:5,shot_pct:0.200,ppt:'6:20',pim:0,hits:13},
 
-{name:'Ryan McLeod',pos:'C',ovr:82,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'1:20',pim:0,hits:1},
+{name:'Ryan McLeod',pos:'C',ovr:82,gp:4,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'1:55',pim:0,hits:2},
 
-{name:'Trevor Zegras',pos:'C',ovr:85,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:36',pim:0,hits:3},
+{name:'Trevor Zegras',pos:'C',ovr:85,gp:4,g:0,a:2,pts_s:2,plusminus:1,shots:1,shot_pct:0,ppt:'1:23',pim:0,hits:3},
 
-{name:'Josh Norris',pos:'C',ovr:85,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:37',pim:0,hits:1},
+{name:'Josh Norris',pos:'C',ovr:85,gp:4,g:0,a:0,pts_s:0,plusminus:0,shots:1,shot_pct:0,ppt:'1:28',pim:0,hits:2},
 
 {name:'Leo Carlsson',pos:'C',ovr:89,gp:3,g:0,a:2,pts_s:2,plusminus:0,shots:1,shot_pct:0,ppt:'1:36',pim:0,hits:0},
 
-{name:'Moritz Seider',pos:'D',ovr:87,gp:3,g:0,a:0,pts_s:0,plusminus:-2,shots:0,shot_pct:0,ppt:'1:28',pim:0,hits:3},
+{name:'Moritz Seider',pos:'D',ovr:87,gp:4,g:0,a:1,pts_s:1,plusminus:0,shots:2,shot_pct:0,ppt:'2:19',pim:0,hits:6},
 
-{name:'Kaiden Guhle',pos:'D',ovr:86,gp:3,g:0,a:1,pts_s:1,plusminus:0,shots:2,shot_pct:0,ppt:'4:41',pim:0,hits:9},
+{name:'Kaiden Guhle',pos:'D',ovr:86,gp:4,g:0,a:1,pts_s:1,plusminus:1,shots:2,shot_pct:0,ppt:'6:16',pim:0,hits:10},
 
 {name:'Denton Mateychuk',pos:'D',ovr:84,gp:3,g:0,a:0,pts_s:0,plusminus:-1,shots:0,shot_pct:0,ppt:'0:23',pim:0,hits:2},
 
 {name:'Zayne Parekh',pos:'D',ovr:84,gp:1,g:1,a:0,pts_s:1,plusminus:1,shots:3,shot_pct:0.333,ppt:'0:38',pim:0,hits:0},
 
-{name:'Jesper Wallstedt',pos:'G',ovr:87,gp:3,gw:2,gaa:2.18,svp:0.907,sa:54,s:49},
+{name:'Jesper Wallstedt',pos:'G',ovr:87,gp:4,gw:3,gaa:1.61,svp:0.932,sa:68,s:63},
 
 {name:'Anthony Stolarz',pos:'G',ovr:84,gp:1,gw:0,gaa:4.53,svp:0.750,sa:8,s:6},
+
     ]
   },
 
@@ -1090,50 +1120,49 @@ pirates:{
     {label:'Pair 1',players:['Rasmus Dahlin','Vince Dunn']},
     {label:'Pair 2',players:['Braden Schneider','Darren Raddysh']},
     {label:'Pair 3',players:['Nikita Zadorov','Philip Broberg']},
-  ],
+  ],players:[
+{name:'Nikita Kucherov',pos:'RW',ovr:95,gp:3,g:1,a:1,pts_s:2,plusminus:-3,shots:2,shot_pct:0.500,ppt:'4:43',pim:0,hits:4},
 
-  players:[
-{name:'Nikita Kucherov',pos:'RW',ovr:95,gp:2,g:1,a:1,pts_s:2,plusminus:0,shots:2,shot_pct:0.500,ppt:'4:22',pim:0,hits:1},
-
-{name:'Elias Pettersson',pos:'C',ovr:89,gp:2,g:0,a:2,pts_s:2,plusminus:-1,shots:1,shot_pct:0,ppt:'2:48',pim:0,hits:1},
+{name:'Elias Pettersson',pos:'C',ovr:89,gp:3,g:0,a:2,pts_s:2,plusminus:-3,shots:1,shot_pct:0,ppt:'3:58',pim:0,hits:3},
 
 {name:'Quentin Musty',pos:'LW',ovr:90,gp:2,g:1,a:0,pts_s:1,plusminus:-3,shots:2,shot_pct:0.500,ppt:'1:49',pim:0,hits:1},
 
-{name:'Evander Kane',pos:'LW',ovr:83,gp:2,g:0,a:0,pts_s:0,plusminus:-1,shots:0,shot_pct:0,ppt:'0:54',pim:0,hits:3},
+{name:'Evander Kane',pos:'LW',ovr:83,gp:3,g:0,a:0,pts_s:0,plusminus:-1,shots:0,shot_pct:0,ppt:'1:08',pim:0,hits:3},
 
 {name:'Yanni Gourde',pos:'C',ovr:84,gp:2,g:0,a:0,pts_s:0,plusminus:-2,shots:0,shot_pct:0,ppt:'0:43',pim:0,hits:1},
 
-{name:'Nikita Zadorov',pos:'D',ovr:84,gp:2,g:0,a:0,pts_s:0,plusminus:-2,shots:1,shot_pct:0,ppt:'1:19',pim:0,hits:4},
+{name:'Nikita Zadorov',pos:'D',ovr:84,gp:3,g:0,a:0,pts_s:0,plusminus:-2,shots:1,shot_pct:0,ppt:'2:16',pim:0,hits:5},
 
-{name:'Jared McCann',pos:'C',ovr:86,gp:2,g:1,a:0,pts_s:1,plusminus:1,shots:3,shot_pct:0.333,ppt:'3:54',pim:0,hits:1},
+{name:'Jared McCann',pos:'C',ovr:86,gp:3,g:1,a:0,pts_s:1,plusminus:0,shots:3,shot_pct:0.333,ppt:'4:27',pim:0,hits:2},
 
-{name:'Darren Raddysh',pos:'D',ovr:86,gp:2,g:0,a:0,pts_s:0,plusminus:-1,shots:0,shot_pct:0,ppt:'0:57',pim:0,hits:1},
+{name:'Darren Raddysh',pos:'D',ovr:86,gp:3,g:0,a:0,pts_s:0,plusminus:-2,shots:0,shot_pct:0,ppt:'2:11',pim:0,hits:3},
 
-{name:'Vince Dunn',pos:'D',ovr:87,gp:2,g:0,a:0,pts_s:0,plusminus:-2,shots:0,shot_pct:0,ppt:'2:02',pim:0,hits:0},
+{name:'Vince Dunn',pos:'D',ovr:87,gp:3,g:0,a:0,pts_s:0,plusminus:-4,shots:1,shot_pct:0,ppt:'3:00',pim:0,hits:2},
 
-{name:'Rasmus Dahlin',pos:'D',ovr:93,gp:2,g:0,a:1,pts_s:1,plusminus:2,shots:0,shot_pct:0,ppt:'1:47',pim:0,hits:5},
+{name:'Rasmus Dahlin',pos:'D',ovr:93,gp:3,g:0,a:1,pts_s:1,plusminus:0,shots:2,shot_pct:0,ppt:'2:44',pim:0,hits:7},
 
-{name:'Braden Schneider',pos:'D',ovr:86,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:41',pim:0,hits:1},
+{name:'Braden Schneider',pos:'D',ovr:86,gp:3,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'1:05',pim:0,hits:3},
 
 {name:'Philip Broberg',pos:'D',ovr:84,gp:2,g:0,a:1,pts_s:1,plusminus:-3,shots:0,shot_pct:0,ppt:'1:36',pim:0,hits:3},
 
-{name:'Zach Benson',pos:'LW',ovr:87,gp:2,g:1,a:0,pts_s:1,plusminus:0,shots:1,shot_pct:1.000,ppt:'1:34',pim:0,hits:2},
+{name:'Zach Benson',pos:'LW',ovr:87,gp:3,g:2,a:0,pts_s:2,plusminus:-1,shots:3,shot_pct:0.667,ppt:'3:02',pim:0,hits:4},
 
 {name:'William Eklund',pos:'LW',ovr:86,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
 {name:'Dmitri Voronkov',pos:'LW',ovr:85,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
-{name:'William Karlsson',pos:'C',ovr:84,gp:2,g:0,a:0,pts_s:0,plusminus:1,shots:1,shot_pct:0,ppt:'0:14',pim:0,hits:0},
+{name:'William Karlsson',pos:'C',ovr:84,gp:3,g:0,a:0,pts_s:0,plusminus:1,shots:1,shot_pct:0,ppt:'0:58',pim:0,hits:0},
 
-{name:'Frank Nazar',pos:'C',ovr:84,gp:2,g:0,a:1,pts_s:1,plusminus:-1,shots:1,shot_pct:0,ppt:'2:31',pim:0,hits:0},
+{name:'Frank Nazar',pos:'C',ovr:84,gp:3,g:0,a:2,pts_s:2,plusminus:-1,shots:2,shot_pct:0,ppt:'3:25',pim:0,hits:1},
 
 {name:'Marco Kasper',pos:'C',ovr:82,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
 {name:'Cole Caufield',pos:'RW',ovr:90,gp:2,g:0,a:0,pts_s:0,plusminus:0,shots:0,shot_pct:0,ppt:'0:00',pim:0,hits:0},
 
-{name:"Gabriel D'Aigle",pos:'G',ovr:88,gp:2,gw:0,gaa:3.69,svp:0.821,sa:29,s:24},
+{name:"Gabriel D'Aigle",pos:'G',ovr:88,gp:3,gw:0,gaa:4.38,svp:0.788,sa:41,s:33},
 
-{name:'Linus Ullmark',pos:'G',ovr:85,gp:1,gw:0,gaa:6.81,svp:0.750,sa:12,s:9},
+{name:'Linus Ullmark',pos:'G',ovr:85,gp:2,gw:1,gaa:2.94,svp:0.850,sa:20,s:17},
+],
   ]
 },
 
